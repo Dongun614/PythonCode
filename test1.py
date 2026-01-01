@@ -15,5 +15,3 @@ n = int(input("몇 개의 숫자를 입력하시겠습니까? "))
 data = list(map(int, input("숫자들을 입력하세요: ").split()))
 for num in data:
     print(f"입력한 숫자는 {num}입니다.")
-#연습
-    
