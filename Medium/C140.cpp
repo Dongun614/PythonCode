@@ -3,6 +3,7 @@
 using namespace std;
 int n, k;
 bool visit[100001];
+
 void bfs(int a){
     queue<pair<int, int>> q;
     q.push(make_pair(a, 0));
